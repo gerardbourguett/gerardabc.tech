@@ -4,3 +4,11 @@
 # React Router
 /.react-router/
 /build/
+
+### Remix+Netlify ###
+/.netlify
+
+### Remix ###
+/.cache
+/public/build
+.env
