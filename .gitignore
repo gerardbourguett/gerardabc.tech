@@ -12,3 +12,4 @@
 /.cache
 /public/build
 .env
+.codegpt
