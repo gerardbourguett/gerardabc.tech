@@ -23,7 +23,6 @@ export function Welcome() {
                   <a
                     className="group flex items-center gap-3 self-stretch p-3 leading-normal text-blue-700 hover:underline dark:text-blue-500"
                     href={href}
-                    target="_blank"
                     rel="noreferrer"
                   >
                     {icon}
@@ -48,14 +47,14 @@ const resources = [
     ),
   },
   {
-    href: "https://mp-react-chi.vercel.app/",
+    href: "/mercadopublico",
     text: "Mercado Público",
     icon: (
       <Store size={48} />
     )
   },
   {
-    href: "https://clima-reactjsx.vercel.app/",
+    href: "/clima",
     text: "Weather App",
     icon: (
       <CloudDrizzle size={48} />
